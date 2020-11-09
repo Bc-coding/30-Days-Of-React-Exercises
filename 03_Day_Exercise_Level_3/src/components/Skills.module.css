@@ -1,0 +1,24 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.para {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.list > * {
+  background-color: #4dccbd;
+  color: white;
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 8px;
+}

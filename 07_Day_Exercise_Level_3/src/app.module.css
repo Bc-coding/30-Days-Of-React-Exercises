@@ -1,0 +1,24 @@
+.main {
+  width: 70vw;
+  margin: auto;
+}
+.main > h3,
+.main > h1,
+.main > p {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  margin: 10px;
+}
+
+.country,
+.population {
+  text-align: left;
+}
+
+.population {
+  padding-left: 10px;
+}

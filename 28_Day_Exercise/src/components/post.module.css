@@ -1,0 +1,78 @@
+.post {
+  padding: 0 10px;
+  border: 1px solid #e6ecf0;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+i {
+  margin: 10px;
+  color: #697a89;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.faUser {
+  font-size: 35px;
+}
+
+span {
+  color: #8796a2;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.postDetail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.far {
+  color: #92d0f0;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.tweetedDate {
+  font-size: 16px;
+}
+
+.red:hover {
+  color: #d81159;
+}
+
+.blue:hover {
+  color: #3993dd;
+}
+
+.retweet:hover {
+  color: #2cdd5e;
+}
+
+/* editing template */
+.saveButton {
+  background-color: #92d0f0;
+  color: white;
+  height: 40px;
+  margin-left: 15px;
+}
+
+.saveButton:hover {
+  background-color: #3993dd;
+}
+
+.cancelButton {
+  background-color: lightgray;
+  color: white;
+  margin-left: 15px;
+}
+
+.cancelButton:hover {
+  background-color: gray;
+}

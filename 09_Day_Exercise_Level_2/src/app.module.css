@@ -1,0 +1,47 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 20px;
+  background-color: pink;
+}
+
+.usercard {
+  margin: auto;
+}
+
+.countryRandom {
+  width: 50vw;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.2);
+  line-height: 1.1em;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.countryCard {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.countryInfo {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}

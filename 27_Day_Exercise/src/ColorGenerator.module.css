@@ -1,0 +1,101 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.generator {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.generator > input {
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 20px;
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+}
+
+.generator > input:hover {
+  background-color: #f0e6ef;
+}
+
+.generator > input:focus {
+  background-color: #f0e6ef;
+  outline: none;
+}
+
+.generator > button {
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #8b5fbf;
+  color: white;
+}
+
+.generator > button:hover {
+  background-color: #db00b6;
+  cursor: pointer;
+}
+
+.generator > button:focus {
+  outline: none;
+}
+
+.grid {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.colorWrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.buttonClipboard {
+  background-color: transparent;
+  border: none;
+
+  outline: none;
+}
+
+.faRegClipboard {
+  margin: 0 auto;
+  color: white;
+  font-size: 2em;
+}
+
+.faRegClipboard:hover {
+  cursor: pointer;
+}
+
+.inputHexcode {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.textCopy {
+  position: absolute;
+  right: -25px;
+  top: 45%;
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 5px;
+}

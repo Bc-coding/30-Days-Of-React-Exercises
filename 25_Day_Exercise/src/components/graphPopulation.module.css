@@ -1,0 +1,22 @@
+.main {
+  margin: auto;
+}
+
+.main > h3 {
+  text-align: center;
+}
+
+.graphWrapper {
+  padding: 10px;
+  border-radius: 5px;
+
+  border: 2px solid hsl(0, 0%, 100%);
+
+  box-shadow: 0 0 0 2px hsl(0, 0%, 95%), 0 0 0 5px hsl(0, 0%, 90%);
+}
+
+.countryGrid {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  margin: 10px;
+}

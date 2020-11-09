@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Raleway+Dots&display=swap");
+.wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #cdb4db;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border: 5px solid pink;
+  padding: 20px;
+  font-family: "Comfortaa", cursive;
+}
+
+.intro > img {
+  width: 250px;
+}
+.intro > div {
+  padding: 20px;
+}
+
+/* .catsParadise {
+  font-family: "Butterfly Kids", cursive;
+} */
+
+.catsParadise > * {
+  margin-bottom: 30px;
+}
+
+.catsParadise > h2,
+.catsParadise > h3 {
+  text-align: center;
+}
+
+.span {
+  width: 50px;
+  height: 50px;
+  color: #25a18e;
+  border: 2px dotted white;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+td {
+  width: 150px;
+}
+
+.numberOfBreeds {
+  text-align: center;
+}
+
+p {
+  color: black;
+}

@@ -1,0 +1,21 @@
+section {
+  width: 80vw;
+  margin: 100px auto;
+  text-align: center;
+}
+
+section > h3,
+section > p {
+  font-family: "Roboto", sans-serif;
+}
+
+section > h1,
+section > div {
+  font-family: "Major Mono Display", monospace;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 5px;
+}

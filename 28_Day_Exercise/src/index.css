@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Raleway&display=swap");
+
+:root {
+  --font-family-heading: "Oswald", serif;
+  --font-family-body: "Raleway", sans-serif;
+
+  --color-primary: #3b2f63;
+  --color-primary-lighter: #002f6c;
+  --color-text: #525c65;
+  --background-body: #f9fbfe;
+  --font-size-regular-text: 18px;
+  --font-size-heading: 26px;
+}
+#root {
+  min-height: 100%;
+  position: relative;
+  letter-spacing: 1.25px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*:focus {
+  outline: 2px solid #228bec;
+  outline-offset: 0;
+}
+
+/* html {
+  font: 62.5% / 1.15 sans-serif;
+} */
+
+body {
+  height: 100%;
+  background: var(--background-body);
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 1rem;
+}
+
+p {
+  font-weight: 300;
+  font-family: var(--font-family-body);
+
+  margin-bottom: 1em;
+}
+
+input,
+select,
+textarea {
+  margin: 15px 0;
+  min-width: 250px;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+button {
+  font-size: 100%;
+}

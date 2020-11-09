@@ -1,0 +1,13 @@
+.selfie {
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+}
+.name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: small;
+}

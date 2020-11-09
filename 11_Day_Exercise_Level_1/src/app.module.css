@@ -1,0 +1,71 @@
+.container {
+  width: 80vw;
+  margin: 10px auto;
+  background: linear-gradient(45deg, #dee2e6, #caf0f8);
+  padding: 20px;
+}
+.message {
+  color: #f07167;
+}
+.draggable {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background: white;
+}
+
+.dropzone {
+  width: 220px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #4cc9f0;
+}
+
+input {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background: #faf9f9;
+  color: #353535;
+  width: 250px;
+  height: 30px;
+}
+
+button {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #ffd6ba;
+  color: #353535;
+  border: none;
+  border-radius: 8px;
+}
+.double {
+  margin-bottom: 10px;
+}
+.div {
+  margin-bottom: 10px;
+}
+.submit {
+  background: #ffd6ba;
+  color: #353535;
+  width: 100px;
+}
+
+.para {
+  color: #fb5607;
+  margin-bottom: 0;
+}
+.world {
+  text-shadow: -2px -2px 0 #3a86ff, 2px -2px 0 white, -2px 2px 0 white,
+    2px 2px 0 white;
+}
+
+.myPics {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  background: #ffd6ba;
+}

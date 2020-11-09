@@ -1,0 +1,33 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.subscribe {
+  font-family: "Ubuntu", sans-serif;
+}
+
+div {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  background: #8acdea;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+input {
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border-color: transparent;
+  background-color: white;
+}
+
+button {
+  padding: 5px 50px;
+  background-color: #ffa987;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  border-color: transparent;
+}

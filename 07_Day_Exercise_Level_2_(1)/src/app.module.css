@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+section {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section > h3,
+section > p {
+  font-family: "Roboto", sans-serif;
+}
+
+section > h1,
+section > div {
+  font-family: "Major Mono Display", monospace;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 5px;
+}
+
+.container > div {
+  padding: 20px;
+  border: 1px solid black;
+}

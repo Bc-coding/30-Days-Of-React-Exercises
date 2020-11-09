@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+footer {
+  width: 100%;
+
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  border-top: 5px solid white;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: #3a86ff;
+}
+
+.footerLink:link {
+  text-decoration: none;
+  color: #3a86ff;
+}
+
+.footerLink:hover {
+  color: hotpink;
+}

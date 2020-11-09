@@ -1,0 +1,18 @@
+.arrow {
+  display: block;
+  border: none;
+  background: transparent;
+  font-size: 50px;
+  color: #0bc9cd;
+  position: fixed;
+  bottom: 2%;
+  right: 18%;
+}
+.arrow:hover {
+  outline: none;
+  color: #1c6e8c;
+}
+.arrow:focus {
+  outline: none;
+  color: #1c6e8c;
+}
